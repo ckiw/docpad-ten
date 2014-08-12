@@ -1,0 +1,29 @@
+---
+layout: 'default'
+title: 'Accueil'
+---
+
+<!-- Primary marketing message or call to action -->
+<div class="jumbotron">
+  <h1>Bienvenue sur <%= @site.title %>!</h1>
+  <p>
+     Nous vous invitons à consulter et télécharger les derniers numéros de Ten sur notre tout nouveau site :) 
+  </p>
+</div>
+
+<!-- Example row of columns -->
+
+<% for document in @getCollection('posts').toJSON(): %>
+<div class="row" class="text-center">
+
+  <div class="col-md-3">
+    <img src="<%= document.couv %>" width="100%">
+  </div>
+  <div class="col-md-9">
+    <h2><%= document.title %></h2>
+    <p><%- document.content %></p>
+    <p><a class="btn btn-default" href="<%= document.lien %>">Télécharger le pdf</a></p>
+  </div>
+
+</div>
+<% end %>

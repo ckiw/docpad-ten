@@ -12,7 +12,7 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://website.com"
+			url: "http://tenlemag.com/dev"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
@@ -21,36 +21,36 @@ docpadConfig = {
 			]
 
 			# The default title of our website
-			title: "Your Website"
+			title: "TenLeMag"
 
 			# The website description (for SEO)
 			description: """
-				When your website appears in search results in say Google, the text here will be shown underneath your website's title.
+				TenLeMag, le webzine sur le tir sportif, c’est avant tout une bonne dose de tir, deux bonnes doses de fun et trois bonnes doses de glamour !
 				"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website
+				magazine, website, tir, tir sportif, information, dossier, interview, tireur, tireuse, arme, cible
 				"""
 
 			# The website author's name
-			author: "Your Name"
+			author: "tenlemag"
 
 			# The website author's email
-			email: "your@email.com"
+			email: "contact@tenlemag.com"
 
 			# Styles
 			styles: [
-				"/styles/twitter-bootstrap.css"
-				"/styles/style.css"
+				"styles/twitter-bootstrap.css"
+				"styles/style.css"
 			]
 
 			# Scripts
 			scripts: [
 				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
-				"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
-				"/scripts/script.js"
+				"vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
+				"scripts/script.js"
 			]
 
 
